@@ -7,9 +7,6 @@ import smtplib
 
 app= FastAPI()
 
-
-
-
 @app.post("/email-verification/{emailid}")
 def send_otp(emailid):
         
